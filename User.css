@@ -1,0 +1,437 @@
+*{
+    font-family: montserrat;
+}
+.section-header{
+    margin-bottom:  40px;
+}
+.section-header h2{
+    color: rgb(12, 64, 105);
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: rgb(255, 28, 28);
+}
+.navbar-nav a {
+    font-size: 16px;
+    font-family:  700;
+}
+.navbar-light .navbar-brand{
+    color: #08194a;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand span{
+    color: #f31313;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    display: block;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    background: url(modern_carpark3.jpg);
+    background-size: 100% 100%;
+    
+}
+.container1{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0,0,0,0.3);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+    margin-right: 850px;
+    margin-top: 110px;
+    height: 585px;
+}
+
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.user-input-box label{
+    width: 95%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline:  none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.gender-tital{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+.gender-category label,
+.gender-category label,
+.form-submit-btn input{
+    cursor: pointer;
+}
+
+.form-submit-btn {
+    margin-top: 20px;
+}
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px; 
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: rgba(56,204,93,0.7);
+}
+.form-submit-btn input:hover{
+    background:  rgba(63,114,76,0.7);
+    color: rgb(255, 255, 255);
+}
+
+.Already-Register{
+    color: #fff;
+    margin-top: 10px;
+    float: left;
+    padding-left: 180px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.nav-item1{
+    color: #fff;
+    float: left;
+   margin-top: 10px;
+   margin-left:10px;
+   font-size: 18px;
+   padding-top: 3px;
+   cursor: pointer;
+}
+.nav-item1:hover{
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+   
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+   background-color: rgba(56,204,93,0.7);;
+   color: #fff;
+   /* border: 2px solid rgba(56,204,93,0.7); */
+   border-radius: 5px ;
+
+}
+/* FOOTER */
+
+/* FOOTER */
+
+.footer{
+    background-color: #08194a;
+    color: white;
+    
+    display: flex;
+    margin-top: 45PX;
+    
+   
+    padding: 2rem;
+    height: 250px;
+   
+}  
+.footer .XYZ{
+    margin-left: 50px;
+}
+.footer .XYZ h1{
+    letter-spacing: 0.5rem;
+    color: orange;
+}
+.footer .XYZ h1 span{
+    color:rgb(255, 255, 255);   
+}
+.footer .XYZ p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.footer .XYZ h2 {
+    text-align: left;
+  
+}
+.footer .XYZ i {
+    font-size: 25px;
+   padding: 5px;
+}
+.footer .Our h2{
+    color: orange;
+    margin-left: 0px;
+}
+.footer .Our {
+    margin-left: 210px;
+}
+.footer .Quick{
+    text-align: left;
+   position: relative;
+   margin: auto;
+   margin-left: 220px;
+}
+.footer .Quick h2{
+  color: orange;
+   
+}
+.footer .Quick a{
+    padding: 2px;
+}
+.footer .Latest{
+    text-align: left; 
+}
+.footer .Latest h2{
+  color: orange;
+}
+.footer p{
+   text-align: left;
+    font-size: 1rem;
+    margin-top: 7px;
+}
+.footer i{
+    margin: 0px 5px;
+    font-size: large;
+}
+
+@media(max-width: 600px){
+    .container{
+        min-width: 280px;
+
+    }
+    .user-input-box{
+        margin-bottom:  12px;
+        width: 100%;
+    }
+    .user-input-box:nth-child(2n){
+        justify-content: space-around;
+    }
+    .gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .main-user-info{
+        max-height:  380px;
+        overflow: auto;
+    }
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+    body{
+        display: block;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        background: url(modern_carpark3.jpg );
+        background-size: 100% 100%;
+        
+        
+    }
+    .container1{
+ 
+            width: 90%;
+            max-width: 320px;
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            margin: 0 18px;
+            border-radius: 5px;
+            box-shadow: inset -2px 2px 2px white;
+            
+            margin-top: 90px;
+            height: 620px;
+            justify-content:left;
+        
+    }
+    .user-input-box{
+      
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 8px;
+    }
+
+    
+.form-submit-btn {
+    margin-top: 20px;
+}
+.form-submit-btn input{
+    display: block;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 5px; 
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: rgba(30, 131, 55, 0.7);
+}
+.form-submit-btn input:hover{
+    background:  rgba(90, 237, 127, 0.7);
+    color: rgb(255, 255, 255);
+}
+
+.Already-Register{
+    color: #fff;
+    margin-top: 10px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+/* .nav-item1{
+    color: #fff;
+    float: left;
+   margin-top: 10px;
+   margin-left:10px;
+   font-size: 18px;
+   padding-top: 3px;
+   cursor: pointer;
+} */
+.nav-item1:hover{
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+   
+    font-size: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+   background-color: rgba(56,204,93,0.7);;
+   color: #fff;
+   /* border: 2px solid rgba(56,204,93,0.7); */
+   border-radius: 5px ;
+
+}
+    .footer{
+        background-color: #08194a;
+        color: white;
+        margin-top: 20PX;
+        /* height: 655px; */
+        height: auto;
+        display: grid;
+        margin-top:10px;
+    }  
+    .footer .XYZ{
+        margin-left: 50px;
+        display: contents;
+    }
+    .footer .XYZ h1{
+        letter-spacing: 0.5rem;
+        color: orange;
+    }
+    .footer .XYZ h1 span{
+        color:rgb(255, 255, 255);   
+    }
+    .footer .XYZ p {
+        font-size: 18px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        gap: 0px;
+        
+    }
+    .footer .XYZ h2 {
+        text-align: left;
+      
+    }
+    .footer .XYZ i {
+        font-size: 25px;
+       padding: 5px;
+    }
+    .footer .Our h2{
+        color: orange;
+       
+    }
+    .footer .Our {
+        margin-right: 500px;
+        display: contents;
+    }
+    .footer .Quick{
+        text-align: left;
+       position: relative;
+       display: contents;
+      
+    }
+    .footer .Quick h2{
+      color: orange;
+       
+    }
+    .footer .Quick a{
+        padding: 2px;
+    }
+    .footer p{
+       
+        font-size: 1rem;
+        margin-top: 7px;
+    }
+    .footer i{
+        
+        font-size: large;
+    }
+}
+
+
+

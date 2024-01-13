@@ -1,0 +1,262 @@
+*{
+    font-family: montserrat;
+}
+.section-header{
+    margin-bottom:  40px;
+}
+.section-header h2{
+    color: rgb(12, 64, 105);
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: rgb(255, 28, 28);
+}
+.navbar-nav a {
+    font-size: 16px;
+    font-family:  700;
+}
+.navbar-light .navbar-brand{
+    color: #08194a;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand span{
+    color: #f31313;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+
+}
+
+.carousel{
+    background-image:  url(glo-car-parking-garage-floor-03_16-9.webp);
+    background-size:  cover;
+    background-position:  center;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    top: 430px;
+    z-index: 2;
+    left: 8%;
+}
+
+
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    color: #08194a;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: #f31313;
+}
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #08194a;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+/* Details
+.single-details{
+    background: #08194a;
+    color: #fff;
+    padding: 30px 15px;
+}
+.single-details i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.single-details h2{
+    font-family: bebas neue;
+}
+.AB {
+    text-decoration: none;
+    border: solid 1px;
+    background-color: orange;
+    color: #08194a;
+    border-radius: 5px;
+    padding: 5px;
+} */
+/*managment*/
+.featured{
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(120deg,rgba(255,255,255,0.9) 50%,transparent 50%), url('parking_management_background@2x.v1.f059ea6f.webp');
+    background-size: 100% 100%;
+    box-shadow: 0 10px 20px -6px black;
+      
+}
+
+.featured-text{
+    
+    color: #08194a;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 2rem;
+    letter-spacing: 5px;
+   font-family: 'Akaya Kanadaka', cursive;
+
+}
+.featured-text span{
+    color: #f31313;
+}
+.featured-text h2{
+    padding-top: 13px;
+    margin-right: 1050px;
+    padding-bottom: 20px;
+    color: #08194a;
+    font-size: 65px;
+}
+.featured-text h1{
+    margin-right: 500px;
+    padding-bottom: 42px;
+    font-size: 50px;
+}
+.primary-link{
+    
+    margin-left: 0%;
+    margin-bottom: 150px;
+    background-color:#08194a ;
+    color: #ffffff;
+    
+    border-radius: 7px;
+    font-size: 23px;
+    padding: 5px;
+  
+    
+}   
+
+.featured-text p{
+    color: black;
+    padding-top: 50px;
+    margin-right: 760px;
+    font-size: 20px;
+}
+/*about*/
+.about{
+    width: 100%;
+    height: 450px;
+   background-color: #16244c;
+}
+.about img {
+    width: 600px;
+    height:450px;
+    max-width: 100%;
+   padding: 30px 30px 30px 30px;
+  margin-right: 90px;
+  float: right;
+}
+.about h4{
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 33px;
+    font-size: 33px;
+}
+.about p{
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 35px;
+    font-size: 16px;
+    
+}
+
+/* details{
+    float: right;
+    color: #fff;
+    margin-top: 60px;
+} */
+.footer{
+    /* background-color: #08194a; */
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    padding: 2rem;
+    height: 250px;
+   
+}  
+.footer .ABC{
+    margin-left: 50px;
+}
+.footer .ABC h1{
+    letter-spacing: 0.5rem;
+    color: orange;
+}
+.footer .ABC h1 span{
+    color:rgb(255, 255, 255);   
+}
+.footer .ABC p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.footer .ABC h2 {
+    text-align: left;
+  
+}
+.footer .ABC i {
+    font-size: 25px;
+   padding: 5px;
+}
+.footer .Our h2{
+    color: orange;
+    margin-left: 0px;
+}
+.footer .Our {
+    margin-left: 210px;
+}
+.footer .Quick{
+    text-align: left;
+   position: relative;
+   margin: auto;
+   margin-left: 220px;
+}
+.footer .Quick h2{
+  color: orange;
+   
+}
+.footer .Quick a{
+    padding: 2px;
+}
+
+.footer p{
+   text-align: left;
+    font-size: 1rem;
+    margin-top: 7px;
+}
+.footer i{
+    margin: 0px 5px;
+    font-size: large;
+}
